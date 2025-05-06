@@ -277,6 +277,9 @@ img {
 /* Homepage Specific Styles */
 .home-content {
     margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
 }
 
 .excerpt {
@@ -329,7 +332,7 @@ img {
     opacity: 1;
 }
 
-/* Responsive Design */
+/* Desktop layout (two-column) */
 @media (min-width: 768px) {
     .page-content {
         grid-template-columns: 3fr 1fr;
@@ -348,9 +351,16 @@ img {
     }
     
     .home-content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2em;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+    }
+
+    .slideshow {
+        grid-column: 1; /*Left column*/
+        height: 250px;
+    }
+
+    .excerpts-container {
+        grid-column: 2; /*Right column*/
     }
 }
 
@@ -376,10 +386,6 @@ img {
     
     h3 {
         font-size: 1.4rem;
-    }
-    
-    .slideshow {
-        height: 250px;
     }
     
     table {
