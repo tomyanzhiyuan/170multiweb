@@ -1,11 +1,12 @@
 <?php include "inc/header.php"; ?>
 <?php include "inc/nav.php"; ?>
+<link rel="stylesheet" href="css/styles.css">
 
 <main class="container knicks-content">
     <div class="page-content">
         <article>
             <h2><strong><u>Introduction</u></strong></h2>
-            <p>The New York Knickerbockers,commonly referred to as the New York Knicks, are an American professional
+            <p>The New York Knickerbockers, commonly referred to as the New York Knicks, are an American professional
                 basketball team based in the New York City borough of Manhattan. The Knicks compete in the National
                 Basketball Association (NBA) as a member of the Atlantic Division of the Eastern Conference. The team
                 plays
@@ -18,7 +19,7 @@
                 <img src="images/knicks/knicks.png" alt="The 2024-25 New York Knicks" width="740" height="405">
                 <figcaption>The 2024-25 New York Knicks</figcaption>
             </figure>
-            <h3><em><u>The Early Days Knickerbockers</u></em></h3>
+            <h3><em><u>The Early Days of the Knickerbockers</u></em></h3>
             <p>The team, established by Ned Irish in 1946, was one of the founding members of the Basketball Association
                 of
                 America (BAA), which became the NBA after merging with the rival National Basketball League (NBL) in
@@ -40,13 +41,13 @@
                 they were known for playing tough defense under head coaches Pat Riley and Jeff Van Gundy, making NBA
                 Finals
                 appearances in 1994 and 1999. However, they were unable to win an NBA championship during this era.</p>
-            <h3><em><u>The long Playoff drought</u></em></h3>
+            <h3><em><u>The Long Playoff Drought</u></em></h3>
             <p>Since 2000, the Knicks have struggled to regain their former successes, but won their first division
                 title in
                 19 years in 2012–13, led by a core of forwards Carmelo Anthony and Amar'e Stoudemire. They were
                 eventually
                 eliminated in the Eastern Conference semifinals by the Indiana Pacers.
-            <p>
+            </p>
 
             <p>The Knicks failed to make the playoffs for eight years until 2020–21 when they were led by forward Julius
                 Randle and sophomore RJ Barrett, who was selected third overall in the 2019 NBA draft.</p>
@@ -85,7 +86,7 @@
                         defense, a cornerstone under Coach Tom Thibodeau, regressed, contributing to their failure to
                         secure
                         a playoff spot.</p>
-                    <img src="images/knicks/knicks21.jpeg" alt="The 2024-25 New York Knicks" width="372" height="208">
+                    <img src="images/knicks/knicks21.jpeg" alt="The 2021-22 New York Knicks" width="372" height="208">
                 </li>
 
                 <li><u>2022–2023 Season</u>
@@ -107,7 +108,7 @@
                         first series victory since 2013 by defeating the Cavaliers but fell short against the
                         experienced
                         Miami Heat in the semifinals.</p>
-                    <img src="images/knicks/knicks22.png" alt="The 2024-25 New York Knicks" width="350" height="199">
+                    <img src="images/knicks/knicks22.png" alt="The 2022-23 New York Knicks" width="350" height="199">
                 </li>
 
                 <li><u>2023–2024 Season</u>
@@ -132,12 +133,12 @@
                         Knicks overcame the 76ers in the first round but endured a hard-fought seven-game series loss to
                         the
                         Pacers in the conference semifinals, highlighting areas for future growth.</p>
-                    <img src="images/knicks/knicks23.png" alt="The 2024-25 New York Knicks" width="360" height="203">
+                    <img src="images/knicks/knicks23.png" alt="The 2023-24 New York Knicks" width="360" height="203">
                 </li>
             </ul>
 
             <h2><strong><u>Important Eras &amp; Timeline</u></strong></h2>
-            <h3><em><u>New York Knicks’ Golden Era (1967–1975)</u></em></h3>
+            <h3><em><u>New York Knicks' Golden Era (1967–1975)</u></em></h3>
             <p>The period between 1967 and 1975 was the golden era of the New York Knicks, marking their greatest
                 success in
                 franchise history, including two NBA championships (1970 and 1973). Led by head coach Red Holzman, the
@@ -148,7 +149,7 @@
             <p>Before becoming champions, the Knicks spent years building a strong foundation. In 1967, they hired Red
                 Holzman as head coach, who transformed the team with his defensive-first philosophy. The Knicks made key
                 trades, acquiring Dave DeBusschere from the Detroit Pistons, which solidified their lineup. Willis Reed
-                emerged as a dominant force in the paint, while Walt Frazier became the team’s floor general, known for
+                emerged as a dominant force in the paint, while Walt Frazier became the team's floor general, known for
                 his
                 smooth playmaking and defensive skills. By 1969, the Knicks were becoming a serious championship
                 contender,
@@ -182,7 +183,7 @@
                 second
                 championship in franchise history. Willis Reed once again played a crucial role, earning his second
                 Finals
-                MVP award, while the Knicks’ defense shut down the Lakers’ stars.</p>
+                MVP award, while the Knicks' defense shut down the Lakers' stars.</p>
             <h4><em><u>The Decline & End of the Championship Era (1974–1975)</u></em></h4>
             <p>After winning their second title, the Knicks remained competitive but struggled with aging stars and
                 injuries. They reached the Eastern Conference Finals in 1974 but lost to the Boston Celtics. By 1975,
@@ -194,7 +195,7 @@
                 symbolizing unselfish basketball, teamwork, and resilience. The two championships, especially the
                 legendary
                 1970 Game 7, are still celebrated as the pinnacle of New York Knicks basketball.</p>
-            <h3><em><u>Carmelo Anthony - Knicks Superstar in the making (2010-2013)</u></em></h3>
+            <h3><em><u>Carmelo Anthony - Knicks Superstar in the Making (2010-2013)</u></em></h3>
             <h4><em><u>The Arrival of Amar'e Stoudemire and Carmelo Anthony (2010-2011)</u></em></h4>
             <p>In July 2010, the Knicks signed forward-center Amar'e Stoudemire to a five-year, $100 million contract,
                 signaling a commitment to revitalize the franchise. Stoudemire's arrival brought renewed optimism,
@@ -215,7 +216,7 @@
                 Mike D'Antoni as head coach. Despite these obstacles, the team secured a 36–30 record, earning a spot in
                 the
                 playoffs. However, their postseason run was cut short by the Miami Heat in the first round.</p>
-            <h4><em><u>2011–2012 Season: Overcoming Adversity</u></em></h4>
+            <h4><em><u>2012–2013 Season: The Peak of the Carmelo Era</u></em></h4>
             <p>The 2012–2013 season marked a high point for the Knicks in the Carmelo Anthony era. The team finished
                 with a
                 54–28 record, securing their first Atlantic Division title since 1994. Anthony led the league in

@@ -1,5 +1,6 @@
 <?php include "inc/header.php"; ?>
 <?php include "inc/nav.php"; ?>
+<link rel="stylesheet" href="css/styles.css">
 
 <main class="container darksouls-content">
     <div class="page-content">
@@ -54,10 +55,10 @@
                     so, the kingdom of Oolacile was lost to the Abyss, and eventually forgotten in the modern day.
                     Nothing remains in the present day to mark the passing of this land save for Dusk, the princess of
                     Oolacile.</p>
-                <p>Gwyn's youngest son Gwyndolin, together with Kingseeker Frampt, sheperds the humans by Gwyn's
+                <p>Gwyn's youngest son Gwyndolin, together with Kingseeker Frampt, shepherds the humans by Gwyn's
                     command. Together they built giant asylums to house the countless undead, hoping against hope that
-                    one of them would be chosen to defeat the Asylum demon, and fulfill their destiny. The Undead are
-                    sent on a quest to ring the Bells of Awakening, collect the Lordvessel, slay the bearers of Gwynn's
+                    one of them would be chosen to defeat the Asylum Demon, and fulfill their destiny. The Undead are
+                    sent on a quest to ring the Bells of Awakening, collect the Lordvessel, slay the bearers of Gwyn's
                     soul, then offer those souls to the Lordvessel to open the path to the Kiln of the First Flame. In
                     doing so, the unnatural Undead are given true death and the living can enjoy another age of fire for
                     a thousand years, while the Undead linked to the First Flame will continue to burn, alive and aware,
@@ -65,7 +66,7 @@
             </section>
 
             <aside>
-                <em>Darks Souls lore is expanded a lot more through the later installments (i.e Dark Souls 2 and Dark
+                <em>Dark Souls lore is expanded a lot more through the later installments (i.e., Dark Souls 2 and Dark
                     Souls 3). It is highly recommended to continue with the series after the first game to get the full
                     experience of the trilogy!</em>
             </aside>
@@ -88,14 +89,14 @@
                     against the demons and eventually routed them, shackling the Bed of Chaos, their source of life, to
                     contain them.</p>
 
-                <h3>Ornstein and Smough:</h3>
+                <h3>Ornstein and Smough</h3>
                 <img src="images/darksouls/ornsteinandsmough.jpg" width="180" height="178"
-                    alt="A picture of Dragon Knight Ornstein and Exectutioner Smough during their intense boss fight">
+                    alt="A picture of Dragon Knight Ornstein and Executioner Smough during their intense boss fight">
                 <p>Two knights of Lord Gwyn, they are tasked with guarding Gwynevere.</p>
 
                 <h3>Pinwheel</h3>
                 <img src="images/darksouls/pinwheel.jpg" width="180" height="178"
-                    alt="A picture of the necromancer Pinwheel during his introductionary cutscene">
+                    alt="A picture of the necromancer Pinwheel during his introductory cutscene">
                 <p>Necromancer who stole the Right of Kindling and fled to the Catacombs. Pinwheel has three faces:
                     Father, Child, and Mother. Pinwheel was once a man who lost his son and wife. He attempted to bring
                     them back through necromancy, but ended up fusing their bodies with his. When Pinwheel clones
@@ -108,7 +109,7 @@
 
                 <h3>Taurus Demon</h3>
                 <img src="images/darksouls/taurusdemon.png" width="180" height="178"
-                    alt="A picture of the Taurus Demon encountered on the wall in the Undead Burg as the Chosen Undead readies themselves.">
+                    alt="A picture of the Taurus Demon encountered on the wall in the Undead Burg as the Chosen Undead readies themselves">
                 <p>A bull demon who managed to escape to the surface when Lost Izalith came into being.</p>
 
                 <h3>Four Kings</h3>
@@ -133,13 +134,13 @@
                         <th>Bosses</th>
                         <th>Location</th>
                         <th>Drops</th>
-                        <th>Fun Rating <br>(0-10) </th>
-                        <th>Hardness rating <br>(0-10)</th>
+                        <th>Fun Rating <br>(0-10)</th>
+                        <th>Hardness Rating <br>(0-10)</th>
                     </tr>
 
                     <tr>
                         <td>Ornstein and Smough</td>
-                        <td>Anor Londo </td>
+                        <td>Anor Londo</td>
                         <td>Soul of Ornstein or Soul of Smough,
                             50,000 runes,
                             Armor of Ornstein or Smough
@@ -174,7 +175,7 @@
                         <td>Pinwheel</td>
                         <td>The Catacombs</td>
                         <td>15,000 souls,
-                            Rite of kindling,
+                            Rite of Kindling,
                             1 humanity,
                             Mask of Father, Mother, or Child
                         </td>

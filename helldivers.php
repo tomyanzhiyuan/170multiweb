@@ -1,6 +1,6 @@
 <?php include "inc/header.php"; ?>
 <?php include "inc/nav.php"; ?>
-
+<link rel="stylesheet" href="css/styles.css">
 <main class="container helldivers-content">
     <div class="page-content">
         <article>
@@ -10,15 +10,16 @@
             </header>
 
             <section>
-                <h2> What is helldivers 2?</h2>
+                <h2>What Is Helldivers 2?</h2>
                 <hr>
 
-                <img src="images/helldivers/helldivers2.2.jpg" height=500 width=400 alt="helldivers video game title screen">
-                <div> The helldivers 2 video game title screen</div>
+                <img src="images/helldivers/helldivers2.2.jpg" height=500 width=400
+                    alt="Helldivers video game title screen">
+                <div>The Helldivers 2 video game title screen</div>
 
                 <p>Helldivers 2 is a 2024 <em>cooperative third-person shooter game</em> developed by <strong>Arrowhead
                         Game
-                        Studios and published by Sony Interactive Entertainment</strong>for the PlayStation 5 and
+                        Studios and published by Sony Interactive Entertainment</strong> for the PlayStation 5 and
                     Windows. The
                     game is the direct sequel to Helldivers (2015). Set in the 22nd century, the story follows the
                     Helldivers,
@@ -32,7 +33,7 @@
             </section>
 
             <section>
-                <h2> Gameplay</h2>
+                <h2>Gameplay</h2>
 
                 <p>Helldivers 2 is a shooter game primarily played from a third-person perspective. Players complete
                     tasks
@@ -43,18 +44,18 @@
                     10 ("Super Helldive").
                 </p>
 
-                <h3> difficulty level of operations from easy to hardest</h3>
+                <h3>Difficulty Level of Operations from Easy to Hardest</h3>
                 <ol>
                     <li>Trivial</li>
                     <li>Easy</li>
                     <li>Medium</li>
-                    <li>challenging</li>
-                    <li>hard</li>
-                    <li>extreme</li>
-                    <li>suicide mission</li>
-                    <li>impossible</li>
-                    <li>helldive</li>
-                    <li>super helldive</li>
+                    <li>Challenging</li>
+                    <li>Hard</li>
+                    <li>Extreme</li>
+                    <li>Suicide Mission</li>
+                    <li>Impossible</li>
+                    <li>Helldive</li>
+                    <li>Super Helldive</li>
                 </ol>
 
                 <p>A core gameplay feature carried over from the first game is the use of <strong>"Stratagems",</strong>
@@ -69,8 +70,8 @@
                     release,
                     gameplay involved staff at the studio observing players and influencing gameplay in real time.</p>
 
-                <img src="images/helldivers/helldivers2.3.jpg" height=300 width=300 alt="helldivers 2 Stratagems list">
-                <div> helldivers 2 strategems list</div>
+                <img src="images/helldivers/helldivers2.3.jpg" height=300 width=300 alt="Helldivers 2 Stratagems list">
+                <div>Helldivers 2 Stratagems list</div>
 
                 <p>The game features live service content updates and has a battle pass system called <strong>"Warbonds"
                         that
@@ -105,7 +106,7 @@
             <section>
                 <h2>Synopsis</h2>
 
-                <h3>setting</h3>
+                <h3>Setting</h3>
                 <p>Helldivers 2 takes place in the <strong>22nd century</strong>, one hundred years after the triumph of
                     Super
                     Earth, a self-described managed democracy, over the Bugs, Cyborgs, and Illuminate during the First
@@ -122,13 +123,13 @@
                     <strong>Terminids</strong>.
                 </p>
 
-                <h3>plot</h3>
+                <h3>Plot</h3>
                 <p>The events of Helldivers 2 begins after the Super Earth Armed Forces fail to contain the Terminids,
                     <em>which have escaped their farms and are causing widespread chaos and destruction</em>.
                     Simultaneously, a
-                    new threat emerges in the form of the <strong> Automatons </strong>, descendants of the defeated
+                    new threat emerges in the form of the <strong>Automatons</strong>, descendants of the defeated
                     Cyborgs,
-                    intent on getting revenge against humanity. Subsequently, the <strong>Illuminate </strong>, an
+                    intent on getting revenge against humanity. Subsequently, the <strong>Illuminate</strong>, an
                     ancient and
                     technologically advanced alien race thought to be extinct, return and invade Super Earth's colonies.
                     In
@@ -140,14 +141,14 @@
                     propaganda
                     messages available for players to find during gameplay</aside>
 
-                <img src="images/helldivers/helldivers2.1.jpg" height=300 width=500 alt="the terminids">
-
+                <img src="images/helldivers/helldivers2.1.jpg" height=300 width=500 alt="The Terminids">
+                <div>The Terminids</div>
 
             </section>
 
             <section>
                 <h2>Development and Release</h2>
-                <P>On <strong> 3 December 2020, Arrowhead Game Studios</strong> revealed that work had started on a new
+                <p>On <strong>3 December 2020, Arrowhead Game Studios</strong> revealed that work had started on a new
                     project
                     for PlayStation 5. It was confirmed that the game would be a third-person shooter. Like the first
                     game,
@@ -166,7 +167,7 @@
                     Twitter,
                     but was later removed. On <strong>24 May 2023</strong>, Helldivers 2 was announced during the
                     <em>2023
-                        PlayStation Showcase</em>, with a slated release of sometime in 2023. <strong> On 6 July
+                        PlayStation Showcase</em>, with a slated release of sometime in 2023. <strong>On 6 July
                         2023</strong>, a
                     trailer showcasing gameplay was released. On <strong>30 July 2023</strong>, the game received an M
                     rating by
@@ -179,14 +180,12 @@
                         2023</strong>. <strong>On 8 February 2024</strong>, the game was released on the PlayStation
                     Store and
                     Steam.
-                </P>
+                </p>
 
                 <aside>
                     <p>On 18 December 2024, Arrowhead released a crossover event with the Killzone franchise, releasing
                         downloadable content for players to purchase with in-game currency.</p>
                 </aside>
-
-
 
                 <h3>Bitsquid</h3>
                 <p>Built with support for the most popular PC, console, and mobile platforms in mind, Bitsquid was
@@ -225,8 +224,7 @@
                     fighting against
                     a race of large insectoids. Helldivers 2 has been listed among the best video games of 2024</p>
 
-
-                <h4>Starship Troopers</h4>
+                <h3>Starship Troopers</h3>
                 <p>Starship Troopers is a 1997 American science fiction action film directed by <strong>Paul Verhoeven
                         and
                         written by Edward Neumeier</strong>, based on the 1959 novel by Robert A. Heinlein. Set in the
@@ -239,9 +237,8 @@
                         Busey,
                         Neil Patrick Harris, Patrick Muldoon, and Michael Ironside</strong>.</p>
 
-
-                <h3>sales</h3>
-                <p> On <strong>February 11 2024, Johan Pilestedt</strong>, then-CEO of Arrowhead Games, announced that
+                <h3>Sales</h3>
+                <p>On <strong>February 11, 2024, Johan Pilestedt</strong>, then-CEO of Arrowhead Games, announced that
                     Helldivers 2 had <em>sold approximately 1 million units</em>. Helldivers 2 was the largest launch of
                     any
                     PlayStation Studios game available on PC. Arrowhead stated that the game's success has greatly
@@ -262,7 +259,7 @@
                         Warzone 2.0 and
                         Fortnite</em>. By <strong>15 March 2024</strong>, Helldivers 2 was estimated to have sold <em>8
                         million
-                        units and reached 450,000 concurrent players on Steam</em>. By 5 <strong>May 2024</strong>,
+                        units and reached 450,000 concurrent players on Steam</em>. By <strong>5 May 2024</strong>,
                     <em>12
                         million units of the game had been sold, making it PlayStation's fastest selling video game of
                         all time
@@ -275,61 +272,61 @@
             </section>
 
             <section>
-                <h2>Accolades for helldivers 2</h2>
+                <h2>Accolades for Helldivers 2</h2>
                 <table border="1">
                     <caption>Accolades</caption>
                     <thead>
                         <tr>
-                            <th>year</th>
-                            <th> ceremony</th>
-                            <th>category</th>
-                            <th>result</th>
+                            <th>Year</th>
+                            <th>Ceremony</th>
+                            <th>Category</th>
+                            <th>Result</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td rowspan="9">2024</td>
-                            <td rowspan="5">golden joystick awards</td>
-                            <td rowspan="1">ultimate game of the year</td>
-                            <td rowspan="1"> nominated</td>
+                            <td rowspan="5">Golden Joystick Awards</td>
+                            <td rowspan="1">Ultimate Game of the Year</td>
+                            <td rowspan="1">Nominated</td>
                         </tr>
                         <tr>
-                            <td>best multiplayer game</td>
-                            <td>won</td>
-                        </tr>
-
-                        <tr>
-                            <td> console game of the year</td>
-                            <td>won</td>
-                        </tr>
-                        <tr>
-                            <td>best game trailer</td>
-                            <td>won</td>
+                            <td>Best Multiplayer Game</td>
+                            <td>Won</td>
                         </tr>
 
                         <tr>
-                            <td>critics choice award</td>
-                            <td>won</td>
-
+                            <td>Console Game of the Year</td>
+                            <td>Won</td>
                         </tr>
                         <tr>
-                            <td rowspan="4"> The game awards 2024</td>
-                            <td> best ongoing game</td>
-                            <td>won</td>
-                        </tr>
-                        <tr>
-                            <td>best community support</td>
-                            <td> nominated</td>
+                            <td>Best Game Trailer</td>
+                            <td>Won</td>
                         </tr>
 
                         <tr>
-                            <td>best action game</td>
-                            <td>nominated</td>
+                            <td>Critics Choice Award</td>
+                            <td>Won</td>
+
+                        </tr>
+                        <tr>
+                            <td rowspan="4">The Game Awards 2024</td>
+                            <td>Best Ongoing Game</td>
+                            <td>Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Community Support</td>
+                            <td>Nominated</td>
                         </tr>
 
                         <tr>
-                            <td>best multiplayer game</td>
-                            <td>won</td>
+                            <td>Best Action Game</td>
+                            <td>Nominated</td>
+                        </tr>
+
+                        <tr>
+                            <td>Best Multiplayer Game</td>
+                            <td>Won</td>
                         </tr>
                     </tbody>
                 </table>

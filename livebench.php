@@ -1,6 +1,6 @@
 <?php include "inc/header.php"; ?>
 <?php include "inc/nav.php"; ?>
-
+<link rel="stylesheet" href="css/styles.css">
 <main class="container livebench-content">
     <div class="page-content">
         <article>
