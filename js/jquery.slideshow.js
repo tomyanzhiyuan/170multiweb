@@ -1,10 +1,4 @@
-/**
- * Simple jQuery Slideshow
- * Project 3 - LiveBench Website
- * Author: Tom Yan
- * Date: May 3, 2025
- */
-
+// slideshow.js
 $(document).ready(function () {
     // Initialize slideshow
     if ($('.slideshow').length) {

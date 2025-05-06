@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < navLinks.length; i++) {
         var link = navLinks[i];
         var href = link.getAttribute('href');
+        var hrefPage = href.split("/").pop();
 
-        if (href === page) {
+        if (hrefPage === page) {
             link.parentNode.classList.add('is-current');
             break;
         }
