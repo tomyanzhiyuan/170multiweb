@@ -25,7 +25,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 1rem;
     color: #2c3e50;
     font-weight: 600;
@@ -180,7 +185,8 @@ article {
 }
 
 /* Lists and Tables */
-ul, ol {
+ul,
+ol {
     margin-left: 2em;
     margin-bottom: 1.5em;
 }
@@ -198,7 +204,8 @@ table {
     font-size: 0.9rem;
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     text-align: left;
     border-bottom: 1px solid #e2e8f0;
@@ -280,6 +287,8 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
+    width: 100%;
+    /* Ensure full width */
 }
 
 .excerpt {
@@ -310,12 +319,13 @@ img {
 /* Slideshow */
 .slideshow {
     margin: 2em 0;
-    height: 400px;
+    height: 250px;
     background-color: #f0f0f0;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure full width */
 }
 
 .slideshow img {
@@ -332,35 +342,69 @@ img {
     opacity: 1;
 }
 
+.excerpts-container {
+    width: 100%;
+    /* Ensure full width */
+}
+
 /* Desktop layout (two-column) */
 @media (min-width: 768px) {
     .page-content {
         grid-template-columns: 3fr 1fr;
     }
-    
+
     .grid-section {
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .article-grid {
         grid-template-columns: 1fr 1fr;
     }
-    
+
     nav ul {
         justify-content: flex-start;
     }
-    
+
     .home-content {
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-template-columns: 1fr 1fr;
+        /* Two equal columns */
+        max-width: 1200px;
+        /* Match container max-width */
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        /* Ensure grid display is set */
+        gap: 2em;
+        /* Maintain consistent gap */
     }
 
     .slideshow {
-        grid-column: 1; /*Left column*/
-        height: 250px;
+        grid-column: 1 / 2;
+        /* Take up first column */
+        height: 100%;
+        /* Fill the height of its grid area */
+        margin: 0;
+        /* Remove margin to align properly */
+        min-height: 350px;
+        /* Ensure minimum height */
+        align-self: start;
+        /* Align to top of grid area */
     }
 
     .excerpts-container {
-        grid-column: 2; /*Right column*/
+        grid-column: 2 / 3;
+        /* Take up second column */
+        display: flex;
+        /* Use flexbox for excerpts */
+        flex-direction: column;
+        /* Stack excerpts vertically */
+        gap: 2em;
+        /* Space between excerpts */
+    }
+
+    .excerpt {
+        margin-bottom: 0;
+        /* Remove bottom margin as we're using gap */
     }
 }
 
@@ -369,30 +413,31 @@ img {
         flex-direction: column;
         align-items: center;
     }
-    
+
     nav a {
         padding: 0.7em 1em;
         width: 100%;
         text-align: center;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
+
     h2 {
         font-size: 1.7rem;
     }
-    
+
     h3 {
         font-size: 1.4rem;
     }
-    
+
     table {
         font-size: 0.8rem;
     }
-    
-    th, td {
+
+    th,
+    td {
         padding: 8px 10px;
     }
 }
@@ -401,31 +446,32 @@ img {
     .container {
         padding: 0 15px;
     }
-    
+
     header {
         padding: 1.5em 0;
     }
-    
+
     h1 {
         font-size: 1.8rem;
     }
-    
+
     h2 {
         font-size: 1.5rem;
     }
-    
+
     h3 {
         font-size: 1.3rem;
     }
-    
+
     .slideshow {
         height: 200px;
     }
-    
-    article, .excerpt {
+
+    article,
+    .excerpt {
         padding: 1em;
     }
-    
+
     aside {
         padding: 1em;
     }
@@ -469,27 +515,35 @@ img {
 }
 
 /* Fix conflicts with project 1 styling */
-.knicks-content h3, .darksouls-content h3, .helldivers-content h3 {
+.knicks-content h3,
+.darksouls-content h3,
+.helldivers-content h3 {
     margin-top: 1.2em;
     font-size: 1.5rem;
     border-left: none;
     padding-left: 0;
 }
 
-.knicks-content tr:hover, .darksouls-content tr:hover, .helldivers-content tr:hover {
+.knicks-content tr:hover,
+.darksouls-content tr:hover,
+.helldivers-content tr:hover {
     background-color: #ebf4ff;
 }
 
-.knicks-content ul li, .darksouls-content ul li, .helldivers-content ul li {
+.knicks-content ul li,
+.darksouls-content ul li,
+.helldivers-content ul li {
     list-style-type: disc;
 }
 
 /* Ensure content doesn't stretch too wide on desktop */
 @media (min-width: 1200px) {
-    p, li {
+
+    p,
+    li {
         max-width: 700px;
     }
-    
+
     .container {
         max-width: 1200px;
     }
