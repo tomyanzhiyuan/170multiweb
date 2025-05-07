@@ -16,7 +16,6 @@
             <article>
                 <header>
                     <h1>Helldivers 2</h1>
-                    <hr>
                 </header>
 
                 <section>

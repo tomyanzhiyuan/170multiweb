@@ -17,7 +17,6 @@
             <article>
                 <header>
                     <h1>New York Knicks</h1>
-                    <hr>
                 </header>
 
                 <section>

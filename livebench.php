@@ -16,7 +16,6 @@
             <article>
                 <header>
                     <h1>LiveBench</h1>
-                    <hr>
                 </header>
 
                 <section>

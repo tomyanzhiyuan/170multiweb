@@ -17,7 +17,6 @@
             <article>
                 <header>
                     <h1>Dark Souls</h1>
-                    <hr>
                 </header>
 
                 <section>

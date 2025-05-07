@@ -94,6 +94,7 @@ header h1 {
     border-bottom: none;
     font-size: 2.2rem;
     font-weight: 600;
+    
 }
 
 header h1 a {
@@ -184,6 +185,14 @@ article {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
+}
+
+.page-content h1 {
+    text-align: center;
+}
+
+.page-content header {
+    border-radius: 16px;
 }
 
 .grid-section {
@@ -304,15 +313,56 @@ img {
 /* Homepage Specific Styles */
 .home-content {
     margin-top: 2em;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2em;
     width: 100%;
-    /* Ensure full width */
+}
+
+.slideshow {
+    margin: 0 0 2em 0;
+    aspect-ratio: 16 / 9;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshow img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    background: #f0f0f0;
+    border-radius: 16px;
+}
+
+.slideshow img.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.excerpts-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 2em;
 }
 
 .excerpt {
-    margin-bottom: 2em;
+    margin-bottom: 0;
     padding: 1.5em;
     background-color: white;
     border-radius: 8px;
@@ -336,95 +386,12 @@ img {
     font-weight: bold;
 }
 
-/* Slideshow */
-.slideshow {
-    margin: 2em 0;
-    height: 250px;
-    background-color: #f0f0f0;
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Ensure full width */
-}
-
-.slideshow img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    margin: 0;
-}
-
-.slideshow img.active {
-    opacity: 1;
-}
-
-.excerpts-container {
-    width: 100%;
-    /* Ensure full width */
-}
-
-/* Desktop layout (two-column) */
+/* Desktop layout for excerpts */
 @media (min-width: 768px) {
     .page-content {
-        grid-template-columns: 3fr 1fr;
-    }
-
-    .grid-section {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .article-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    nav ul {
-        justify-content: flex-start;
-    }
-
-    .home-content {
-        grid-template-columns: 1fr 1fr;
-        /* Two equal columns */
-        max-width: 1200px;
-        /* Match container max-width */
-        margin-left: auto;
-        margin-right: auto;
         display: grid;
-        /* Ensure grid display is set */
+        grid-template-columns: 3fr 1fr;
         gap: 2em;
-        /* Maintain consistent gap */
-    }
-
-    .slideshow {
-        grid-column: 1 / 2;
-        /* Take up first column */
-        height: 100%;
-        /* Fill the height of its grid area */
-        margin: 0;
-        /* Remove margin to align properly */
-        min-height: 350px;
-        /* Ensure minimum height */
-        align-self: start;
-        /* Align to top of grid area */
-    }
-
-    .excerpts-container {
-        grid-column: 2 / 3;
-        /* Take up second column */
-        display: flex;
-        /* Use flexbox for excerpts */
-        flex-direction: column;
-        /* Stack excerpts vertically */
-        gap: 2em;
-        /* Space between excerpts */
-    }
-
-    .excerpt {
-        margin-bottom: 0;
-        /* Remove bottom margin as we're using gap */
     }
 }
 
@@ -467,6 +434,10 @@ img {
     th,
     td {
         padding: 8px 10px;
+    }
+
+    .page-content {
+        display: block;
     }
 }
 
@@ -574,7 +545,6 @@ img {
 
 /* Ensure content doesn't stretch too wide on desktop */
 @media (min-width: 1200px) {
-
     p,
     li {
         max-width: 700px;
@@ -583,4 +553,24 @@ img {
     .container {
         max-width: 1200px;
     }
+}
+
+/* Ensure .home-content is always a column flex container */
+.home-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2em;
+    width: 100%;
+}
+
+/* Ensure .slideshow and .excerpts-container are always stacked */
+.slideshow, .excerpts-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.excerpts-container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 2em;
 }

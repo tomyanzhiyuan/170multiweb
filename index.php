@@ -16,8 +16,8 @@
         <div class="home-content">
             <div class="slideshow">
                 <img src="images/slideshow/livebench.png" alt="LiveBench AI" class="active">
-                <img src="images/slideshow/darksouls.jpg" alt="Dark Souls">
-                <img src="images/slideshow/helldivers2.2.jpg" alt="Helldivers 2">
+                <img src="images/slideshow/darksouls.png" alt="Dark Souls">
+                <img src="images/slideshow/helldivers2.png" alt="Helldivers 2">
                 <img src="images/slideshow/knicks.png" alt="New York Knicks">
             </div>
 
