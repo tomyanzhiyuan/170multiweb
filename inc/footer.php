@@ -12,7 +12,7 @@
         ];
         if ($current_page != "index.php" && isset($originals_map[$current_page])) {
             $original_path = $originals_map[$current_page];
-            echo '<p>Original content from: <a href="' . $original_path . '" target="_blank">' . htmlspecialchars($original_path) . '</a></p>';
+            echo '<p><a href="' . $original_path . '" target="_blank">Original Content</a></p>';
         }
         ?>
     </div>
