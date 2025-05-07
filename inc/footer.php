@@ -5,10 +5,10 @@
         // Display original source link for non-homepage
         $current_page = basename($_SERVER['PHP_SELF']);
         $originals_map = [
-            "livebench.php"   => "Originals/livebenchoriginal.html",
-            "darksouls.php"   => "Originals/darksoulsoriginal.html",
-            "helldivers.php"  => "Originals/helldiversoriginal.html",
-            "knicks.php"      => "Originals/knicksoriginal.html"
+            "livebench.php" => "Originals/livebenchoriginal.html",
+            "darksouls.php" => "Originals/darksoulsoriginal.html",
+            "helldivers.php" => "Originals/helldiversoriginal.html",
+            "knicks.php" => "Originals/knicksoriginal.html"
         ];
         if ($current_page != "index.php" && isset($originals_map[$current_page])) {
             $original_path = $originals_map[$current_page];
@@ -16,6 +16,12 @@
         }
         ?>
     </div>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
 </footer>
 
 <!-- Hidden Verification Fields -->
