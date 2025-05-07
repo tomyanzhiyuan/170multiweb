@@ -4,8 +4,15 @@
         <?php
         // Display original source link for non-homepage
         $current_page = basename($_SERVER['PHP_SELF']);
-        if ($current_page != "index.php") {
-            echo '<p>Original content from: <a href="#">Original Project 1 Source</a></p>';
+        $originals_map = [
+            "livebench.php"   => "Originals/livebenchoriginal.html",
+            "darksouls.php"   => "Originals/darksoulsoriginal.html",
+            "helldivers.php"  => "Originals/helldiversoriginal.html",
+            "knicks.php"      => "Originals/knicksoriginal.html"
+        ];
+        if ($current_page != "index.php" && isset($originals_map[$current_page])) {
+            $original_path = $originals_map[$current_page];
+            echo '<p>Original content from: <a href="' . $original_path . '" target="_blank">' . htmlspecialchars($original_path) . '</a></p>';
         }
         ?>
     </div>
